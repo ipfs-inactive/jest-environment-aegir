@@ -6,7 +6,8 @@ class AegirEnvironment extends NodeEnvironment {
   constructor (config) {
     super(Object.assign({}, config, {
       globals: Object.assign({}, config.globals, {
-        Uint8Array: Uint8Array
+        Uint8Array: Uint8Array,
+        ArrayBuffer: ArrayBuffer
       })
     }))
   }
