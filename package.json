@@ -22,5 +22,8 @@
   "homepage": "https://github.com/ipfs/jest-environment-aegir",
   "devDependencies": {
     "aegir": "^12.0.4"
-  }
+  },
+  "contributors": [
+    "dignifiedquire <dignifiedquire@gmail.com>"
+  ]
 }
